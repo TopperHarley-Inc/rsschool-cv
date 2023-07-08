@@ -27,17 +27,18 @@ header {
 }
 
 .header-photo img {
-    width: 500px;    
+    width: 500px;
 }
 
 .header-description {
     padding-left: 20px;
 }
 
-.header-description h2 {
+.header-description h1 {
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .header-description h3 {
@@ -49,19 +50,20 @@ header {
     text-align: center;
 }
 
-nav {
+nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 }
 
-nav div {
+nav ul li {
     margin: 0 auto;
     flex: 1 0 30%;
+    list-style-type: none;
 }
 
-nav div a {
+nav ul li a {
     text-decoration: none;
     font: bold 30px/1 sans-serif;
     color: rgb(161, 51, 51) ;
@@ -115,11 +117,15 @@ div.universities p:last-child {
     font: italic 28px "Fira Sans", sans-serif;
 }
 
-.it-education, .english-education, .it-skills {
+.it-education, .english-education, .it-skills ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.it-skills ul li {
+    list-style-type: none;
 }
 
 img.it-education-logo, img.english-education-logo, .it-skills-icon {
@@ -140,16 +146,35 @@ img.english-education-logo:last-child {
     color: black;
 }
 
-.contacts p a {
+.contacts ul li {
+    list-style-type: none;
+}
+
+.contacts ul li p a {
     color: black;
 }
+
+/*footer*/
 
 footer {
     margin-top: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-icon {
     height: 75px;
+}
+
+footer p {
+    font: bold 28px "Fira Sans", sans-serif;
+    color: black;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
 }
