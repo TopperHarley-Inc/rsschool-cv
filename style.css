@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    background-color: white;
+}
+
+.wrapper {
+    margin: 15px auto;
+    width: 1280px;
+}
+
+header {
+    height: 516px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-photo {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 10px solid rgb(189, 174, 174);
+    border-radius: 70%;
+}
+
+.header-photo img {
+    width: 500px;
+}
+
+.header-description {
+    padding-left: 20px;
+}
+
+.header-description h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header-description h3 {
+    font: italic 64px "Fira Sans", serif;
+    margin-top: 0;
+}
+
+.header-description h2, h3 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 auto;
+    flex: 1 0 30%;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font: bold 30px/1 sans-serif;
+    color: rgb(161, 51, 51) ;
+}
+
+/* Sections */
+
+section > div:first-child {
+    align-items: center;
+    padding-top: 25px;
+}
+
+.section-name {
+    font: small-caps bold 36px/1 sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.about-me p {
+    text-align: center;
+    font: italic 28px "Fira Sans", sans-serif;
+}
+
+.civilian-education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.civilian-education div p a {
+    text-decoration: none;
+    color: black;
+}
+
+.universities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.universities:nth-child(2){
+    padding-left: 20px;
+}
+
+div.universities p:last-child {
+    padding-left: 35px;
+    font: italic 28px "Fira Sans", sans-serif;
+}
+
+.it-education, .english-education, .it-skills ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.it-skills ul li {
+    list-style-type: none;
+}
+
+img.it-education-logo, img.english-education-logo, .it-skills-icon {
+    height: 180px;
+}
+
+img.english-education-logo:last-child {
+    padding-left: 35px;
+}
+
+.experience p, .js p, .contacts p {
+    text-align: center;
+    font: italic 28px "Fira Sans", sans-serif;
+}
+
+.experience p a, .js p a {
+    font-weight: bold;
+    color: black;
+}
+
+.contacts ul li {
+    list-style-type: none;
+}
+
+.contacts ul li p a {
+    color: black;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon {
+    height: 75px;
+}
+
+footer p {
+    font: bold 28px "Fira Sans", sans-serif;
+    color: black;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+}
