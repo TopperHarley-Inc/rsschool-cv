@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Serhii Hruntkovskyi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" type="ico/png" href="/assets/img/favicon.ico">
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <header>
+                <div class="header-photo">
+                    <img src="/assets/img/my_photo.jpg" alt="Serhii Hruntkovskyi">
+                </div>
+                <div class="header-description">
+                    <h1>Serhii Hruntkovskyi</h1>
+                    <br>
+                    <h3>Web-designer</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#about_me">About me</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#skills">My skills</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#js">JS</a></li>
+                            <li><a href="#contacts"><h4>Contacts</h4></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section id="about_me" class="about-me">
+                <div>
+                    <h2 class="section-name">About me</h2>
+                </div>
+                <p>I’m a developer with experience in building websites for small and medium sized businesses.</p>
+                <p>Whether you’re trying to win work, list your services or even create a whole online store – I can help!</p>
+                <p>I’m experienced in HTML 5 and CSS 3, JS, WordPress and SEO.</p>
+                <p>I’ll fully project manage your brief from start to finish</p>
+            </section>
+            <section id="education">
+                <div>
+                    <h2 class="section-name">Education</h2>
+                </div>
+                <div class="civilian-education">
+                    <div class="universities">
+                        <p><a href="https://knute.edu.ua/?en" target="_blank"><img src="/assets/img/knteu_logo.png" alt="knute"></a></p>
+                        <p>Master's degree in Economics</p>
+                    </div>
+                    <div class="universities">
+                        <p><a href="https://www.naiau.kiev.ua/en/" target="_blank"><img src="/assets/img/navs_logo.png" alt="naiau"></a></p>
+                        <p>Master's degree in Laws</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2 class="section-name">IT education</h2>
+                </div>
+                <div class="it-education">
+                    <div>
+                        <p><a href="https://htmlacademy.ru/" target="_blank"><img class="it-education-logo" src="/assets/img/html_academy_logo.png" alt="html_academy"></a></p>
+                    </div>
+                    <div>
+                        <p><a href="https://beetroot.academy/" target="_blank"><img class="it-education-logo" src="/assets/img/beetroot_academy_logo.jpg" alt="beetroot_academy"></a></p>
+                    </div>
+                    <div>
+                        <p><a href="https://javarush.com/" target="_blank"><img class="it-education-logo" src="/assets/img/JavaRush_logo.png" alt="java_rush"></a></p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2 class="section-name">English (B1)</h2>
+                </div>
+                <div class="english-education">
+                    <div>
+                        <p><a href="https://www.univ.kiev.ua/" target="_blank"><img class="english-education-logo" src="/assets/img/knu_logo.png" alt="knu"></a></p>
+                    </div>
+                    <div>
+                        <p><a href="https://beetroot.academy/" target="_blank"><img class="english-education-logo" src="/assets/img/beetroot_academy_logo.jpg" alt="beetroot_academy"></a></p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <div>
+                    <h2 class="section-name">Skills</h2>
+                </div>
+                <div class="it-skills">
+                    <ul>
+                        <li><img class="it-skills-icon" src="/assets/img/html_css_js_icons.png" alt="html_css_js"></li>
+                        <li><img class="it-skills-icon" src="/assets/img/GitHub-icon.png" alt="git"></li>
+                        <li><img class="it-skills-icon" src="/assets/img/gulp_icon.png" alt="gulp"></li>
+                        <li><img class="it-skills-icon" src="/assets/img/figma-icon.png" alt="figma"></li>
+                        <li><img class="it-skills-icon" src="/assets/img/photoshop-icon.png" alt="photoshop"></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="experience" class="experience">
+                <div>
+                    <h2 class="section-name">Experience</h2>
+                </div>
+                <p>HTML+CSS projects, JS, some Wordpress. Total experience more than 5 years</p>
+                <p><a href="https://github.com/TopperHarley-Inc/Done_projects-Travelling" target="_blank">Project "Travelling" (GitHub link)</a></p>
+                <p>*includes HTML5, CSS3, SCSS, Adaptivity</p>
+            </section>
+            <section id="js" class="js">
+                <div>
+                    <h2 class="section-name">Java Script</h2>
+                </div>
+                <p>One of my skills is working with JavaScript</p>
+                <p><a href="https://github.com/TopperHarley-Inc/Simple_JScripts" target="_blank">Numerous simple Java Scripts (GitHub link)</a></p>
+                <p>Numeric Palindrome:</p>
+                <pre>
+                    // Helps to check an inputed integer as palindrome
+
+                    let input = +prompt(`Please, enter an integer.`);
+
+                    let palindromeNumber = function palindrome(x) {
+                    // check of the number
+                        if (x &#60; 0) return false;
+                        if (x % 10 === 0) return false;
+                        if (x &#60; 10) return true;
+
+                    // a cycle block
+                    let rev = 0;
+
+                    while (x > rev) {
+                        console.log(x, rev);
+                        rev *= 10;
+                        rev += x % 10;
+                        x = Math.trunc(x / 10);
+                    }
+                        console.log(x, rev);
+                        return x === rev || x === Math.trunc(rev / 10);
+                    }
+
+                    console.log(palindromeNumber(input));
+                    if (palindromeNumber(input) == true) {
+                        alert(`This number is a palindrome.`);
+                    }
+                    if (palindromeNumber(input) == false) {
+                        alert(`This number is not a palindrome.`);
+                    }
+                </pre>
+            </section>
+            <section id="contacts" class="contacts">
+                <div>
+                    <h2 class="section-name">Contacts</h2>
+                </div>
+                <ul>
+                    <li><p>Address: Zaporiz`ka str. Vinnytsya, Ukraine</p></li>
+                    <li><p>Phone number: +3 8 073 0292200</p></li>
+                    <li><p>E-mail: serhii.hruntkovskyi@gmail.com</p></li>
+                    <li><p><a href="https://www.upwork.com/freelancers/~012ada5a7cb63af48e" target="_blank">Upwork: Serhii H.</a></p></li>
+                </ul>
+            </section>
+            <footer>
+                <p><a href="https://rs.school/js-stage0/" target="_blank"><img class="footer-icon" src="/assets/img/rs_school-logo.svg" alt="rs_school"></a></p>
+                <p><a href="https://github.com/TopperHarley-Inc/" target="_blank">GitHub: TopperHarley-Inc</a></p>
+                <p>&#169; 2023</p>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
